@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+  
+    height: 5%;   
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+header h1 {
+    display: inline;
+    margin-left: 40%;
+    font-size: 50px;
+    font-family:cursive;
+}
+
+header nav {
+    font-size: 20px;
+    margin-left: 38.75%;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+header nav a {
+    font-family: cursive;
+    color: rgb(255, 0, 200);
+}
+
+section {
+    margin-top: 50px;
+    margin-left: 200px;
+    height:1150px;
+    width: 75%;
+    background-color: white;
+    border-top: solid 2px rgb(0, 0, 255);
+}
+
+section img {
+    margin-top: 50px;
+    margin-left: 27%;
+    object-fit: cover;
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+}
+
+section p {
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+}
+
+
+
