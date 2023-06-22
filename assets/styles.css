@@ -11,7 +11,7 @@ header {
 }
 
 header h1 {
-    display: inline;
+    display: block;
     margin-left: 40%;
     font-size: 50px;
     font-family:cursive;
@@ -32,30 +32,44 @@ header nav a {
     color: rgb(255, 0, 200);
 }
 
-section {
+#about-me {
     margin-top: 50px;
-    margin-left: 200px;
-    height:1150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:1100px;
     width: 75%;
     background-color: white;
     border-top: solid 2px rgb(0, 0, 255);
 }
 
-section img {
+.bike-pic {
+    margin-left:auto;
+    margin-right:auto;
     margin-top: 50px;
-    margin-left: 27%;
+    display: block;
     object-fit: cover;
     height: 700px;
-    width: 700px;
+    width:700px;   
     border-radius: 50%;
 }
 
-section p {
+.bio {
     margin-top: 50px;
     font-size: 35px;
     font-family: cursive;
     text-align: center;
 }
 
+#my-skills {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:1150px;
+    width: 75%;
+    background-color: white;
+    border-top: solid 2px rgb(255, 0, 200);
+}
 
 
